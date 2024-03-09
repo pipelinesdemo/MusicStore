@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('VCS') {
             steps {
-                git branch: 'main'
+                git branch: 'pt'
                     url: 'https://github.com/pipelinesdemo/MusicStore.git' 
             }
         }
